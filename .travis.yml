@@ -8,6 +8,6 @@ before_install:
   - brew update
 install:
   - ulimit -n4096  
-  - brew install dotnet-sdk
+  - brew cask install dotnet-sdk
 script:  
   - dotnet buils travistest.csproj
