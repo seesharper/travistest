@@ -10,4 +10,4 @@ install:
   - ulimit -n4096  
   - brew cask install dotnet-sdk
 script:  
-  - dotnet buils travistest.csproj
+  - dotnet build travistest.csproj
