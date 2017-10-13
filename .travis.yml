@@ -12,4 +12,4 @@ install:
   - chmod +x dotnet-install.sh
   - ./dotnet-install.sh --channel 2.0
 script:  
-  - dotnet build travistest.csproj
+  - $HOME/.dotnet/dotnet build travistest.csproj
