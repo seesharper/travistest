@@ -7,4 +7,4 @@ matrix:
       dist: trusty      
       sudo: false          
 script:  
-  - ~/.dotnet/dotnet build travistest.csproj
+  - dotnet build travistest.csproj
