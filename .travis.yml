@@ -5,6 +5,9 @@ matrix:
   include:
     - os: linux
       dist: trusty      
-      sudo: false          
+      sudo: false
+    - os: osx
+      osx_image: xcode9      
+      sudo: required               
 script:  
   - dotnet build travistest.csproj
