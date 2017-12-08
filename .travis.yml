@@ -11,4 +11,5 @@ matrix:
       osx_image: xcode9      
       sudo: required               
 script:  
+  - nuget update -self
   - dotnet build travistest.csproj
