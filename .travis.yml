@@ -1,11 +1,9 @@
 language: csharp
 matrix:
   include:
-    - os: osx
-      osx_image: xcode9      
-      sudo: required          
-before_install:
-  - brew update
+    - os: linux
+      dist: trusty      
+      sudo: false          
 install:
   - ulimit -n4096  
   - curl https://dot.net/v1/dotnet-install.sh -o dotnet-install.sh
